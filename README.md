@@ -13,10 +13,7 @@ A modern, feature-rich real-time chat application built with Next.js, Socket.io,
   <img src="Screenshot 2025-11-11 144853.png" width="900" hight="300>
 </p>
     <br><br><br>
-<p align="center">
-  <img src="" width="700">
-</p>
-<br><br><br>
+
 <p align="center">
   <img src="Screenshot 2025-11-11 144911.png" width="900" hight="300>
 </p>
