@@ -9,30 +9,14 @@ A modern, feature-rich real-time chat application built with Next.js, Socket.io,
 
 ---
 ### ✨ Screenshot
-<p align="center">
-  <img src="Screenshot 2025-11-11 144853.png" width="900" hight="300>
-</p>
-    <br><br><br>
-
-<p align="center">
-  <img src="Screenshot 2025-11-11 144911.png" width="900" hight="300>
-</p>
-    <br><br><br>
-<p align="center">
-  <img src="Screenshot 2025-11-11 145016.png" width="900" hight="300>
-</p>
-    <br><br><br>
-<p align="center">
-  <img src="Screenshot 2025-11-11 145124.png" width="900" hight="300>
-</p>
-    <br><br><br>
-<p align="center">
-  <img src="Screenshot 2025-11-11 145139.png" width="900" hight="300>
-</p>
-    <br><br><br>
-<p align="center">
-  <img src="Screenshot 2025-11-11 145216.png" width="900" hight="300>
-</p>
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img src="Screenshot 2025-11-11 144853.png" width="300">
+  <img src="Screenshot 2025-11-11 144911.png" width="300">
+  <img src="Screenshot 2025-11-11 145016.png" width="300">
+  <img src="Screenshot 2025-11-11 145124.png" width="300">
+  <img src="Screenshot 2025-11-11 145139.png" width="300">
+  <img src="Screenshot 2025-11-11 145216.png" width="300">
+</div>
 
 ---
 ---
