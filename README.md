@@ -35,6 +35,7 @@ A modern, feature-rich real-time chat application built with Next.js, Socket.io,
 </p>
 
 ---
+---
 ## ✨ Features
 
 ### 🔐 Authentication
