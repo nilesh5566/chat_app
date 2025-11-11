@@ -8,7 +8,7 @@ A modern, feature-rich real-time chat application built with Next.js, Socket.io,
 ![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=for-the-badge&logo=prisma)
 
 ---
-## ✨ Screenshot
+### ✨ Screenshot
 <p align="center">
   <img src="Screenshot 2025-11-11 144853.png" width="900" hight="300>
 </p>
