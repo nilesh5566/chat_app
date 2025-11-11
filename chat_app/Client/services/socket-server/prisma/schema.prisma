@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  email    String @unique
+  name     String
+  password String
+
+  @@map("users")
+}
+
+model Message {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  senderId   String
+  senderName String
+  receiverId String
+  text       String
+  timestamp  DateTime @default(now())
+  read       Boolean  @default(false)
+
+  @@index([senderId, receiverId, timestamp])
+  @@map("messages")
+}
+
+model OnlineUser {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId     String   @unique
+  userName   String
+  socketId   String?
+  lastSeen   DateTime @default(now())
+  isOnline   Boolean  @default(false)
+
+  @@map("online_users")
+}
+
+// ------------------ FRIENDS ------------------
+model Friend {
+  id         String @id @default(auto()) @map("_id") @db.ObjectId
+  userId     String
+  friendId   String
+  friendName String
+
+  @@map("friends")
+}
+
+// ------------------ FRIEND REQUESTS ------------------
+model FriendRequest {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  fromUserId   String
+  fromUserName String
+  toUserId     String
+  toUserName   String
+  createdAt    DateTime @default(now())
+
+  @@map("friend_requests")
+}
