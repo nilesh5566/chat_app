@@ -10,12 +10,12 @@ A modern, feature-rich real-time chat application built with Next.js, Socket.io,
 ---
 ### ✨ Screenshot
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-  <img src="Screenshot 2025-11-11 144853.png" width="300">
-  <img src="Screenshot 2025-11-11 144911.png" width="300">
-  <img src="Screenshot 2025-11-11 145016.png" width="300">
-  <img src="Screenshot 2025-11-11 145124.png" width="300">
-  <img src="Screenshot 2025-11-11 145139.png" width="300">
-  <img src="Screenshot 2025-11-11 145216.png" width="300">
+  <img src="/chat_app/Client/Screenshot 2025-11-11 144853.png" width="300">
+  <img src="/chat_app/Client/Screenshot 2025-11-11 144911.png" width="300">
+  <img src="/chat_app/Client/Screenshot 2025-11-11 145016.png" width="300">
+  <img src="/chat_app/Client/Screenshot 2025-11-11 145124.png" width="300">
+  <img src="/chat_app/Client/Screenshot 2025-11-11 145139.png" width="300">
+  <img src="/chat_app/Client/Screenshot 2025-11-11 145216.png" width="300">
 </div>
 
 ---
